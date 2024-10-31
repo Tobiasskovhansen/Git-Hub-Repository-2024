@@ -1,13 +1,70 @@
 @charset "utf-8";
 /* CSS Document */
 
-div{
+.responsive {
+	width: 75%;
+	min-width: 500px;
+	max-width: 800px;
+	height: 100px;
+	background-color: red;
+	
+}
+
+@media screen and (max-width: 1000px) {
+	.responsive {
+		background-color: blue;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.responsive {
+		background-color: green;
+	}
+}
+
+
+
+.animation {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+}
+
+@keyframes example {
+	0% {background-color: red; top: 0px; left: 0px; scale: 1;}
+	25% {background-color: blue; top: 0px; left: 250px; scale: 2;}
+	50% {background-color: blue; top: 100px; left: 250px; scale: 2;}
+	75% {background-color: blue; top: 100px; left: 0px; scale: 2;}
+	100% {background-color: red; top: 0px; left: 0px; scale: 1;}
+}
+
+
+.magic_button {
+	width: 200px;
+	height: 100px;
+	
+}
+
+.magic_button:hover {
+	background-color: aqua;
+	cursor: pointer;
+}
+
+
+/*div{
 	background-image: url("img/Stille-Morgen-1.jpg"); 
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 50%;
 	float: right;
-}
+}*/
 
 h1{
 	position: sticky;
@@ -18,7 +75,7 @@ h1{
 	font-weight: 900;
 	font-style: normal;
 	text-align: center;
-	font-size; 50px;
+	font-size: 50px;
 	
 }
 
