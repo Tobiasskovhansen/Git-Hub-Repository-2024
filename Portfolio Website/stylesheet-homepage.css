@@ -26,8 +26,24 @@
             background-color: #657889;
         }
 
-#footer {
-	align-content: flex-end;
+.contact-section {
+	width: 400px;
+    height:100px;
+    text-align: center;
+	position: absolute;
+	right: 100px;
+	bottom: 200px;
+	list-style-type: none;
+	font-size: 20px;
+	color: #FFF3E5;
+}
+
+.fat-text {
+	font-weight: 700;
+}
+
+.contact-links {
+	font-weight: 700;
 }
 
 .circle {
