@@ -3,6 +3,9 @@
 
 
         .navbar {
+			font-family: "de-walpergens-pica", sans-serif;
+			font-weight: 400;
+			font-style: normal;
             background-color: #7497B9;
             overflow: hidden;
 			margin-left: 400px;
@@ -46,7 +49,9 @@
 
 
 
-.headline {
+.headline {font-family: "de-walpergens-pica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	text-align: center;
 	color: #6B5240;
 	position:absolute;
