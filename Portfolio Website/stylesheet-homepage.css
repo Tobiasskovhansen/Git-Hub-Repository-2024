@@ -6,7 +6,7 @@
         .navbar {
             background-color: #7497B9;
             overflow: hidden;
-			margin-left: 20%;
+			margin-left: 400px;
 			margin-top: 50px;
 			margin-right: 10%;
 			border-radius: 50px;
@@ -56,10 +56,13 @@
 	
 }
 
+
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	position:absolute;
+	top: 220px;
 }
 
 .column {
@@ -71,6 +74,8 @@
   margin-top: 8px;
   vertical-align: middle;
 }
+
+
 
 
 .contact-section-1 {
