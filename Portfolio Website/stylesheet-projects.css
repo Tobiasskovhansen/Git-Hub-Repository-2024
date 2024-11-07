@@ -2,6 +2,9 @@
 /* CSS Document */
 
 
+
+
+
         .navbar {
             background-color: #7497B9;
             overflow: hidden;
@@ -42,7 +45,7 @@
 	position:relative;
 	width: 175px;
 	left: 10px;
-	top: -110px;
+	top: -185px;
 	filter: invert();
 	
 }
@@ -55,8 +58,5 @@
 	font-style: normal;
 	text-align: center;
 	color: #6B5240;
-	position:absolute;
-	top: 150px;
-	left: 700px;
 	
 }

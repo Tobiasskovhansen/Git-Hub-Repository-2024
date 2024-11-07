@@ -43,7 +43,7 @@
 	position:relative;
 	width: 175px;
 	left: 10px;
-	top: -110px;
+	top: -185px;
 	filter: invert();
 	
 }
@@ -56,9 +56,6 @@
 	font-style: normal;
 	text-align: center;
 	color: #6B5240;
-	position:absolute;
-	top: 150px;
-	left: 700px;
 	
 }
 
@@ -81,7 +78,9 @@
   vertical-align: middle;
 }
 
-
+.content-grid {
+	height: 300px;
+}
 
 
 .contact-section-1 {
@@ -97,6 +96,16 @@
 	line-height: 5px;
 }
 
+.skygge {
+	background-color: #657889;
+	width: 150px;
+	height: 75px;
+	border-radius: 100px;
+	position: absolute;
+	bottom: 210px;
+	right: 350px;
+}	
+
 .contact-section-2 {
 	width: 400px;
     height:100px;
@@ -105,20 +114,31 @@
 	right: 225px;
 	bottom: 200px;
 	list-style-type: none;
-	font-size: 20px;
+	font-size: 25px;
 	color: #FFF3E5;
 	line-height: 50px;
 }
+
+
 
 .fat-text {
 	font-weight: 700;
 	font-size: 30px;
 }
 
+:any-link {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+	
+	
+	
+
 .portrait {
 	width: 350px;
 	position: relative;
-	bottom: 250px;
+	bottom: 260px;
 	right: -250px;
 	filter: drop-shadow(30px 10px 30px rgba(0,0,0,0.50))
 }
@@ -131,7 +151,24 @@
 	position:absolute;
 	right: -100px;
 	bottom: -300px;
+
+}	
+	
+.contact-circle-shadow {
+	background-color: #FFF3E5;
+	height:765px;
+	width: 775px;
+	border-radius: 400px;
+	position:absolute;
+	right: -100px;
+	bottom: -300px;
 	
 }
+
+.contact-logo {
+	filter:invert();
+}
+
+
 
 
