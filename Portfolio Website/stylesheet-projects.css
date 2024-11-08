@@ -1,7 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (max-width:1050px){
+	
+	.navbar {
+		display:none;
+	}	
+	
+	
+}
 
+@media screen and (max-width:650px){
+	.headline {
+		border-top-width: 100px;
+		margin-top: 200px; 
+	}
+}
 
 
 
@@ -42,10 +56,10 @@
 }
 
 .logo {
-	position:relative;
+	position:absolute;
 	width: 175px;
 	left: 10px;
-	top: -185px;
+	top: 10px;
 	filter: invert();
 	
 }

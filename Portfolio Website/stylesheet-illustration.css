@@ -2,17 +2,13 @@
 /* CSS Document */
 
 
+
+
 @media screen and (max-width:1050px){
 	
-	.navbar {
+.navbar {
 		display:none;
 	}	
-	.burger-menu {
-		width:20px;
-		
-	}
-	
-	
 }
 
 @media screen and (max-width:650px){
